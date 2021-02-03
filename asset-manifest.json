@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6470d285.chunk.css",
+    "main.css": "/portfolio/static/css/main.90006c0d.chunk.css",
     "main.js": "/portfolio/static/js/main.40a1773c.chunk.js",
     "main.js.map": "/portfolio/static/js/main.40a1773c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f69a4348.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f69a4348.js.map",
-    "static/css/2.84b3ebfc.chunk.css": "/portfolio/static/css/2.84b3ebfc.chunk.css",
+    "static/css/2.ff645aaf.chunk.css": "/portfolio/static/css/2.ff645aaf.chunk.css",
     "static/js/2.f95c249e.chunk.js": "/portfolio/static/js/2.f95c249e.chunk.js",
     "static/js/2.f95c249e.chunk.js.map": "/portfolio/static/js/2.f95c249e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.b6c128a6e6f5ffebc42c08d2b1717ffc.js": "/portfolio/precache-manifest.b6c128a6e6f5ffebc42c08d2b1717ffc.js",
+    "precache-manifest.dcdef68e6fb8f4b2b891e1a08975213f.js": "/portfolio/precache-manifest.dcdef68e6fb8f4b2b891e1a08975213f.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/2.84b3ebfc.chunk.css.map": "/portfolio/static/css/2.84b3ebfc.chunk.css.map",
-    "static/css/main.6470d285.chunk.css.map": "/portfolio/static/css/main.6470d285.chunk.css.map",
+    "static/css/2.ff645aaf.chunk.css.map": "/portfolio/static/css/2.ff645aaf.chunk.css.map",
+    "static/css/main.90006c0d.chunk.css.map": "/portfolio/static/css/main.90006c0d.chunk.css.map",
     "static/js/2.f95c249e.chunk.js.LICENSE": "/portfolio/static/js/2.f95c249e.chunk.js.LICENSE",
     "static/media/Education.css": "/portfolio/static/media/northeastern_university_logo.0a0dda79.png",
     "static/media/ConnectAndChat.PNG": "/portfolio/static/media/ConnectAndChat.2fe15dca.PNG",
@@ -40,9 +40,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f69a4348.js",
-    "static/css/2.84b3ebfc.chunk.css",
+    "static/css/2.ff645aaf.chunk.css",
     "static/js/2.f95c249e.chunk.js",
-    "static/css/main.6470d285.chunk.css",
+    "static/css/main.90006c0d.chunk.css",
     "static/js/main.40a1773c.chunk.js"
   ]
 }
