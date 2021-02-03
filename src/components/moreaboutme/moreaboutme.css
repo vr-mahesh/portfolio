@@ -1,0 +1,65 @@
+.aboutme_heading{
+    font-size: 42px;
+    padding-bottom: 3vw;
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
+}
+#AboutMe{
+    color: black;
+   background-color: #7aabad;
+    height: 115vh;
+    padding: 20px;
+}
+
+.cont{
+    margin-top:18vh;
+    
+}
+.morepara{
+    font-size: 20px;
+    margin-top: 3vh;
+    font-family: 'Dosis', sans-serif;
+    text-align: justify;
+}
+.facebook{
+   
+    height: 4vh;
+}
+.linkedin{
+   
+    height: 4vh;
+
+}
+.insta{
+ 
+    height: 4vh;
+}
+.git{
+    width: 4vw;
+    height: 4vh;
+}
+.socialmedia{ 
+    display: flex;
+    justify-content: center;
+}
+.social{
+}
+.a_resume{
+    color: black;
+    text-decoration: underline;
+}
+.a_resume:hover{
+    color: white;
+    text-decoration: none;
+}
+.a_icons{
+    margin-left: 4vw;
+}
+
+  
+@media screen and (max-width: 600px) {
+    #AboutMe{
+        height: 130vh;
+    }
+  }
+  

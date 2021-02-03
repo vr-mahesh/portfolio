@@ -1,0 +1,124 @@
+#Experience{
+    color: black;
+    height: auto;
+    padding: 3vw;
+    background-image: url(./../../Images/mypcup.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover !important;
+}
+#id_ExperienceSection{
+  padding: 1vw;
+    font-size: xx-large;
+    height: auto;
+}
+
+.edu_details{
+    margin-top: 3vh;
+}
+.col_name{
+    font-size: x-large;
+}
+.rel_subj{
+    font-size: 16px;
+    margin-top: 2vh;
+}
+.prog_name{
+    font-size: medium;
+    margin-top: 3vh;
+    font-style: italic;
+}
+#collapseOne{
+    font-family: 'Dosis', sans-serif;
+}
+#collapseTwo{
+    font-family: 'Dosis', sans-serif;
+}
+#collapseThree{
+    font-family: 'Dosis', sans-serif;
+}
+.isro{
+   
+    margin-top: 5vh;
+    padding: 3vh;
+    height: auto;
+    box-shadow: 5px 3px 9px #888;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+}
+.Accenture{
+  padding: 3vh;
+    height: auto;
+    box-shadow: 5px 3px 9px #888;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+}
+.expp{
+    text-align: center;
+ 
+        font-size: 42px;
+        
+        font-family: 'Rajdhani', sans-serif;
+        color: #212A3B;
+      
+}
+@media only screen and (max-width: 600px) {
+    #Experience{
+        color: black;
+        height: auto;
+        padding: 3vw;
+        background-color: #f3f3f3;
+        margin: auto;
+        background-image: url(./../../Images/mypc_up_mobile.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover !important;
+    }
+  }
+  @media only screen  and (max-width: 867px) and (min-width: 600px) {
+    #Experience{
+        color: black;
+        height: auto;
+        padding: 3vw;
+        background-color: #f3f3f3;
+        margin: auto;
+        background-image: url(./../../Images/mypc_up_mobile.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover !important;
+    }
+  }
+  .panel-heading{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 15px;
+      font-weight: 500;   
+      text-decoration: underline;
+  }
+  .panel-heading:hover{
+      cursor: pointer;
+  }
+  .panel-group{
+      width: 100%;
+  }
+  .panel-body{
+      font-size: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .Wex{
+    padding: 3vh;
+    height: auto;
+    box-shadow: 5px 3px 9px #888;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+  }
+  .exp_items{
+      margin-bottom: 7vh;
+  }

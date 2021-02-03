@@ -1,0 +1,99 @@
+#Education{
+    color: black;
+    height: 130vh;
+    margin: auto;
+    padding: 6vw;
+    background-image: url(./../../Images/mypcbottom.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover !important;
+}
+#id_EducationSection{
+   
+    font-size: xx-large;
+    height: 8vh;
+}
+.neu_img{
+    background-image: url(./../../Images/northeastern_university_logo.png);
+    height: 2vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.bit_img{
+    background-image: url(./../../Images/Bangalore_Institute_of_Technology_logo.png);
+    height: 2vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.edu_details{
+    margin-top: 4vh;
+}
+.col_name{
+    font-size: x-large;
+   
+}
+.rel_subj{
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    margin-top: 2vh;
+    text-align: left;
+}
+.prog_name{
+    font-size: 15px;
+    margin-top: 0vh;
+    font-style: italic;
+    font-family: 'Dosis', sans-serif;
+}
+.BIT{
+    margin-top: 5vh;
+    padding: 6vh;
+    height: auto;
+    box-shadow: 5px 3px 9px #888;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.Northeastern{
+    padding: 6vh;
+    border-radius: 5px;
+    height: auto;
+    box-shadow: 5px 3px 9px #888;
+    background-color: white ;
+    text-align: center;
+}
+.edutitle{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.edu_images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    #Education{
+        color: black;
+        height: 170vh;
+        background-image: url(./../../Images/mypcbotton.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover !important;
+        padding: 6vw;
+    }
+  }
+  @media only screen and (max-width: 867px) and (min-width: 600px) {
+    #Education{
+        color: black;
+        height: 156vh;
+        padding: 6vw;
+    }
+  }
+  .font20_edu{
+    font-size: 42px;
+
+    font-family: 'Rajdhani', sans-serif;
+    color: #212A3B;
+  }

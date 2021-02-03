@@ -1,0 +1,137 @@
+#skills{
+   
+    margin-top: 6vh;
+    padding: 2vw;
+}
+#services{
+    
+    margin-top: 6vh;
+    padding: 2vw;
+}
+#id_Skills{
+    color: black;
+    height: auto;
+    padding-top: 5vh;
+   
+}
+.techimage{
+    object-fit: scale-down;
+}
+.techimagename{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    font-size: medium;
+    font-weight: 900;
+    
+}
+.tecahimageitems:hover .techimagename{
+    opacity: 1;
+}
+.tecahimageitems:hover .techimage{
+    opacity: 0.1;
+}
+
+li{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+}
+.h2_skill{
+    font-size: 42px;
+    padding-bottom: 3vw;
+    font-family: 'Rajdhani', sans-serif;
+    color: #212A3B;
+    padding-bottom: 1vh;
+}
+h4{
+    font-family: 'Fondamento', cursive;
+color: #212A3B;
+}
+h5{
+    font-family: 'Cinzel', serif;
+    color: #212A3B;
+}
+.techimages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    /* animation: bannermove 10s linear infinite; */
+}
+.tecahimageitems{
+   margin: 5px;
+   position:relative; 
+   }
+#boxyy{
+    overflow:hidden;
+    height: auto;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 9px #888;
+    padding: 5px;
+    margin-bottom: 10vh;
+    background-color: white;
+}
+@keyframes bannermove {
+  from{
+      transform: translate(0, 0);
+  }
+  to {
+      transform: translate(1000px, 0);
+  }
+}
+.Services_provided{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+}
+
+.servicescard{
+    background-color: #7aabad8c;
+    height: 15vh;
+    /* align-content: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    -webkit-clip-path: polygon(15% 0%, 80% 0%, 100% 0, 100% 70%, 86% 100%, 10% 100%, 0 100%, 0% 32%); 
+    clip-path: polygon(0% 0%, 80% 0%, 100% 0, 100% 70%, 86% 100%, 10% 100%, 0 100%, 0% 32%);
+    border-radius: 6px;
+}
+.skillsintro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+  @media screen and (max-width: 600px) {
+    .servicescard{
+        -webkit-clip-path: polygon(15% 0%, 80% 0%, 100% 0, 100% 70%, 86% 100%, 10% 100%, 0 100%, 0% 32%); 
+        clip-path: none;
+    }
+    .container{
+             padding-right: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .servicescard{
+        -webkit-clip-path: polygon(15% 0%, 80% 0%, 100% 0, 100% 70%, 86% 100%, 10% 100%, 0 100%, 0% 32%); 
+        clip-path: none;
+    }
+    .container{
+        padding-right: 0px;
+}
+  }

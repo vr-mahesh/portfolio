@@ -1,0 +1,68 @@
+#Projects{
+    
+    background-color: #7aabad;
+    height: 120vh;
+    padding: 1vw;
+    color: black;
+    margin-top: 5vh;
+    margin: auto;
+}
+.proj_sections{
+   
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 42px;
+    color: black;
+    display: flex;
+    margin: auto;
+}
+.card1{
+    padding: 5vw;
+}
+.card2{
+    padding: 5vw;
+}
+@media only screen and (max-width: 600px) {
+    #Projects{
+        
+        background-color: #7aabad;
+        height: 206vh;
+        padding: 1vw;
+        color: black;
+    }
+  }
+  .btn_brown{
+background-color: #517273;
+border:none;
+text-decoration: none;
+outline-color: #517273;
+  }
+  .btn_brown a{
+      text-decoration: none;
+  }
+  .btn_brown:hover{
+      color:#212A3B;
+      background: #ccd9d7;
+      border:none;
+    text-decoration: none !important;
+    outline-color: #7aabad;
+  }
+  .btn_brown:active{
+    outline-color: #7aabad;
+  }
+
+.card_title{
+    font-family: 'Fondamento', cursive;
+    font-size: 25px;
+}
+.card_text{
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+}
+@media only screen and (max-width: 867px) and (min-width: 600px) {
+    #Projects{
+        background-color: #7aabad;
+        height: 233vh;
+        padding: 1vw;
+        color: black;
+    }
+  }
