@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.90006c0d.chunk.css",
-    "main.js": "/portfolio/static/js/main.40a1773c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.40a1773c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.bd99bfdc.chunk.css",
+    "main.js": "/portfolio/static/js/main.c554bd6e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c554bd6e.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f69a4348.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f69a4348.js.map",
     "static/css/2.ff645aaf.chunk.css": "/portfolio/static/css/2.ff645aaf.chunk.css",
     "static/js/2.f95c249e.chunk.js": "/portfolio/static/js/2.f95c249e.chunk.js",
     "static/js/2.f95c249e.chunk.js.map": "/portfolio/static/js/2.f95c249e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.dcdef68e6fb8f4b2b891e1a08975213f.js": "/portfolio/precache-manifest.dcdef68e6fb8f4b2b891e1a08975213f.js",
+    "precache-manifest.0e4ab11c5d2211d0dca4f47e16b237fb.js": "/portfolio/precache-manifest.0e4ab11c5d2211d0dca4f47e16b237fb.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.ff645aaf.chunk.css.map": "/portfolio/static/css/2.ff645aaf.chunk.css.map",
-    "static/css/main.90006c0d.chunk.css.map": "/portfolio/static/css/main.90006c0d.chunk.css.map",
+    "static/css/main.bd99bfdc.chunk.css.map": "/portfolio/static/css/main.bd99bfdc.chunk.css.map",
     "static/js/2.f95c249e.chunk.js.LICENSE": "/portfolio/static/js/2.f95c249e.chunk.js.LICENSE",
     "static/media/Education.css": "/portfolio/static/media/northeastern_university_logo.0a0dda79.png",
     "static/media/ConnectAndChat.PNG": "/portfolio/static/media/ConnectAndChat.2fe15dca.PNG",
@@ -34,7 +34,8 @@
     "static/media/logo.svg": "/portfolio/static/media/logo.ee7cd8ed.svg",
     "static/media/mahesh1.png": "/portfolio/static/media/mahesh1.df641135.png",
     "static/media/mssql.png": "/portfolio/static/media/mssql.bcd14509.png",
-    "static/media/Aboutme.css": "/portfolio/static/media/mypcmobile.8c22499b.png",
+    "static/media/Aboutme.css": "/portfolio/static/media/mypcmobile.7ff610bb.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.ef41bc60.png",
     "static/media/netcore.png": "/portfolio/static/media/netcore.022fadb5.png",
     "static/media/react.png": "/portfolio/static/media/react.580ffd26.png"
   },
@@ -42,7 +43,7 @@
     "static/js/runtime-main.f69a4348.js",
     "static/css/2.ff645aaf.chunk.css",
     "static/js/2.f95c249e.chunk.js",
-    "static/css/main.90006c0d.chunk.css",
-    "static/js/main.40a1773c.chunk.js"
+    "static/css/main.bd99bfdc.chunk.css",
+    "static/js/main.c554bd6e.chunk.js"
   ]
 }
