@@ -12,7 +12,7 @@
     color: black;
     height: auto;
     padding-top: 5vh;
-   
+    background-color: #FFEEDB;
 }
 .techimage{
     object-fit: scale-down;
@@ -96,7 +96,7 @@ h5{
 }
 
 .servicescard{
-    background-color: #7aabad8c;
+    background-color: #ADA8B6;
     height: 15vh;
     /* align-content: center; */
     display: flex;

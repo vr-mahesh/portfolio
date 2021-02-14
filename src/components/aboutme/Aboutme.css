@@ -77,7 +77,7 @@ ul {
     height: auto;
     -webkit-background-size: cover !important;
     padding: 0;
-    background-color: white;
+    background-color: #FFEEDB;
   }
 
   .grow { transition: all .2s ease-in-out; }
@@ -153,7 +153,8 @@ ul {
   .Maheshheadline{
     font-family: 'Caveat', cursive;
     font-size: 40px !Important;
-    font-weight: 500; 
+    font-weight: 500;
+    color: #4c3b4d !important; 
   } 
   .itemsholder{
     display: flex;

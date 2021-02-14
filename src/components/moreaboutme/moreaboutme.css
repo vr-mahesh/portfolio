@@ -2,11 +2,11 @@
     font-size: 42px;
     padding-bottom: 3vw;
     font-family: 'Rajdhani', sans-serif;
-    color: black;
+    color: white;
 }
 #AboutMe{
-    color: black;
-   background-color: #7aabad;
+    color: white;
+   background-color: #4C3B4D;
     height: 115vh;
     padding: 20px;
 }
@@ -45,7 +45,7 @@
 .social{
 }
 .a_resume{
-    color: black;
+    color: white;
     text-decoration: underline;
 }
 .a_resume:hover{

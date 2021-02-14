@@ -1,7 +1,7 @@
 #footer_id{
   height: 60vh;
-  background: #7aabad;
-  color: black;
+  background: #4C3B4D;
+  color: white;
 }
 .connectt{
     text-align: center;
@@ -14,7 +14,7 @@
 }
 
 .btn_white{
-    background-color: #517273;
+    background-color: #ADA8B6;
     border:none;
     color: white;
     text-decoration: none;
@@ -47,7 +47,7 @@
     @media only screen and (max-width: 600px) {
         #footer_id{
           height: 85vh;
-          background: #7aaaac;
+          background: #4C3B4D;
         
         }
       }
@@ -55,7 +55,7 @@
       @media only screen  and (max-width: 867px) and (min-width: 600px) {
         #footer_id{
           height: 90vh;
-          background: #7aaaac;
+          background: #4C3B4D;
       
       }
       }

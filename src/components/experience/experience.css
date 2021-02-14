@@ -42,7 +42,7 @@
     margin-top: 5vh;
     padding: 3vh;
     height: auto;
-    box-shadow: 5px 3px 9px #888;
+    box-shadow: 0px 3px 5px #888;
     text-align: center;
     border-radius: 5px;
     background-color: white;
@@ -50,7 +50,7 @@
 .Accenture{
   padding: 3vh;
     height: auto;
-    box-shadow: 5px 3px 9px #888;
+    box-shadow:  0px 3px 5px #888;
     text-align: center;
     border-radius: 5px;
     background-color: white;
@@ -114,7 +114,7 @@
   .Wex{
     padding: 3vh;
     height: auto;
-    box-shadow: 5px 3px 9px #888;
+    box-shadow:  0px 3px 5px #888;
     text-align: center;
     border-radius: 5px;
     background-color: white;

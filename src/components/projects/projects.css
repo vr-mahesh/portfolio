@@ -1,6 +1,6 @@
 #Projects{
     
-    background-color: #7aabad;
+    background-color: #4C3B4D;
     height: 120vh;
     padding: 1vw;
     color: black;
@@ -11,7 +11,7 @@
    
     font-family: 'Rajdhani', sans-serif;
     font-size: 42px;
-    color: black;
+    color: white;
     display: flex;
     margin: auto;
 }
@@ -24,17 +24,17 @@
 @media only screen and (max-width: 600px) {
     #Projects{
         
-        background-color: #7aabad;
+        background-color: #4C3B4D;
         height: 206vh;
         padding: 1vw;
         color: black;
     }
   }
   .btn_brown{
-background-color: #517273;
+background-color: #ADA8B6;
 border:none;
 text-decoration: none;
-outline-color: #517273;
+outline-color: #ADA8B6;
   }
   .btn_brown a{
       text-decoration: none;
@@ -44,10 +44,10 @@ outline-color: #517273;
       background: #ccd9d7;
       border:none;
     text-decoration: none !important;
-    outline-color: #7aabad;
+    outline-color: #4C3B4D;
   }
   .btn_brown:active{
-    outline-color: #7aabad;
+    outline-color: #4C3B4D;
   }
 
 .card_title{
@@ -60,7 +60,7 @@ outline-color: #517273;
 }
 @media only screen and (max-width: 867px) and (min-width: 600px) {
     #Projects{
-        background-color: #7aabad;
+        background-color: #4C3B4D;
         height: 233vh;
         padding: 1vw;
         color: black;

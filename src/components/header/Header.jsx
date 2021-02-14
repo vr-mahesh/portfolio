@@ -29,14 +29,14 @@ render(){
  
  
       <Navbar  className="topbar" variant="dark" expand="lg">
-       <Navbar.Brand className="Maheshheadline" href="#Mahesh" >Mahesh</Navbar.Brand>
+       <Navbar.Brand className="Maheshheadline">Mahesh</Navbar.Brand>
        <Navbar.Toggle className="navbuttonresp" aria-controls="basic-navbar-nav" />
        <Navbar.Collapse id="basic-navbar-nav">
          <Nav className="itemsholder navvele mr-auto">
-           <Nav.Link  to="/moreaboutme"  onClick={() => {window.scrollTo({ top: 700, behavior: 'smooth' }) }}>About Me</Nav.Link>
+           <Nav.Link  to="/moreaboutme"  onClick={() => {window.scrollTo({ top: 600, behavior: 'smooth' }) }}>About Me</Nav.Link>
            <Nav.Link  to="/skills"  onClick={() => {window.scrollTo({ top: 1350, behavior: 'smooth' }) }}>Skills</Nav.Link>
            <Nav.Link  to="/projects" onClick={() => {window.scrollTo({ top: 2000, behavior: 'smooth' }) }}>Projects</Nav.Link>
-           <Nav.Link  to="/education"  onClick={() => {window.scrollTo({ top: 2700, behavior: 'smooth' }) }}>Education</Nav.Link>
+           <Nav.Link  to="/education"  onClick={() => {window.scrollTo({ top: 2800, behavior: 'smooth' }) }}>Education</Nav.Link>
            <Nav.Link  to="/experience"  onClick={() => {window.scrollTo({ top: 3600, behavior: 'smooth' }) }}>Experience</Nav.Link>
          </Nav>
        </Navbar.Collapse>
