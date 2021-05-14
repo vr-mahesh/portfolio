@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0640fbe754ed7fe230e9673ed43a1e85",
+    "revision": "9854dca30221a428bcbff4665d64d68a",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.ff645aaf.chunk.css"
   },
   {
-    "revision": "40577b4c1f9b7982f469",
-    "url": "/portfolio/static/css/main.754726e0.chunk.css"
+    "revision": "68cc8925c64a39f513e0",
+    "url": "/portfolio/static/css/main.84aacadc.chunk.css"
   },
   {
     "revision": "a5e902a0309908c2d163",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.f95c249e.chunk.js.LICENSE"
   },
   {
-    "revision": "40577b4c1f9b7982f469",
-    "url": "/portfolio/static/js/main.a21cd105.chunk.js"
+    "revision": "68cc8925c64a39f513e0",
+    "url": "/portfolio/static/js/main.2b3f7314.chunk.js"
   },
   {
     "revision": "1f80476636c50f84bb32",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b5dfbd6ba978e006d1d7be54f42127f6",
     "url": "/portfolio/static/media/bookingPage.b5dfbd6b.PNG"
+  },
+  {
+    "revision": "ec88ac14b3db47b5f490613c7422fe2c",
+    "url": "/portfolio/static/media/code.ec88ac14.jpg"
   },
   {
     "revision": "50935d3f26de6c9d172b6d476d9e1ce2",

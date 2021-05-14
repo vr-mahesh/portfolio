@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.754726e0.chunk.css",
-    "main.js": "/portfolio/static/js/main.a21cd105.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a21cd105.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.84aacadc.chunk.css",
+    "main.js": "/portfolio/static/js/main.2b3f7314.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2b3f7314.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f69a4348.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f69a4348.js.map",
     "static/css/2.ff645aaf.chunk.css": "/portfolio/static/css/2.ff645aaf.chunk.css",
     "static/js/2.f95c249e.chunk.js": "/portfolio/static/js/2.f95c249e.chunk.js",
     "static/js/2.f95c249e.chunk.js.map": "/portfolio/static/js/2.f95c249e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.d513caedc320adcc5f817e68a7cd255e.js": "/portfolio/precache-manifest.d513caedc320adcc5f817e68a7cd255e.js",
+    "precache-manifest.926c12f251c1d8e219007a60372834b6.js": "/portfolio/precache-manifest.926c12f251c1d8e219007a60372834b6.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.ff645aaf.chunk.css.map": "/portfolio/static/css/2.ff645aaf.chunk.css.map",
-    "static/css/main.754726e0.chunk.css.map": "/portfolio/static/css/main.754726e0.chunk.css.map",
+    "static/css/main.84aacadc.chunk.css.map": "/portfolio/static/css/main.84aacadc.chunk.css.map",
     "static/js/2.f95c249e.chunk.js.LICENSE": "/portfolio/static/js/2.f95c249e.chunk.js.LICENSE",
     "static/media/Education.css": "/portfolio/static/media/northeastern_university_logo.0a0dda79.png",
     "static/media/ConnectAndChat.PNG": "/portfolio/static/media/ConnectAndChat.2fe15dca.PNG",
@@ -22,6 +22,7 @@
     "static/media/aspnet.jfif": "/portfolio/static/media/aspnet.e43917a8.jfif",
     "static/media/azuredevops.png": "/portfolio/static/media/azuredevops.8ddbbe4e.png",
     "static/media/bookingPage.PNG": "/portfolio/static/media/bookingPage.b5dfbd6b.PNG",
+    "static/media/Aboutme.css": "/portfolio/static/media/code.ec88ac14.jpg",
     "static/media/ez1.PNG": "/portfolio/static/media/ez1.50935d3f.PNG",
     "static/media/ez2.PNG": "/portfolio/static/media/ez2.187ee065.PNG",
     "static/media/ez3.PNG": "/portfolio/static/media/ez3.de23d82e.PNG",
@@ -42,7 +43,7 @@
     "static/js/runtime-main.f69a4348.js",
     "static/css/2.ff645aaf.chunk.css",
     "static/js/2.f95c249e.chunk.js",
-    "static/css/main.754726e0.chunk.css",
-    "static/js/main.a21cd105.chunk.js"
+    "static/css/main.84aacadc.chunk.css",
+    "static/js/main.2b3f7314.chunk.js"
   ]
 }
