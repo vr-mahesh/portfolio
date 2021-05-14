@@ -1,6 +1,6 @@
 #Projects{
     
-    background-color: #4C3B4D;
+    background-color: #333333;
     height: 120vh;
     padding: 1vw;
     color: black;
@@ -24,14 +24,14 @@
 @media only screen and (max-width: 600px) {
     #Projects{
         
-        background-color: #4C3B4D;
+        background-color: #333333;
         height: 206vh;
         padding: 1vw;
         color: black;
     }
   }
   .btn_brown{
-background-color: #ADA8B6;
+background-color: #333333;
 border:none;
 text-decoration: none;
 outline-color: #ADA8B6;
@@ -60,9 +60,18 @@ outline-color: #ADA8B6;
 }
 @media only screen and (max-width: 867px) and (min-width: 600px) {
     #Projects{
-        background-color: #4C3B4D;
+        background-color: #333333;
         height: 233vh;
         padding: 1vw;
         color: black;
     }
+  }
+
+  .projectHolder{
+    height: 100%;
+    width: 100%;
+    background-color: #ADA8B6;
+  }
+  .projectCard{
+      background-color: white;
   }

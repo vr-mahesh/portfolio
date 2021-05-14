@@ -1,6 +1,6 @@
 #footer_id{
   height: 60vh;
-  background: #4C3B4D;
+  background: #333333;
   color: white;
 }
 .connectt{
@@ -47,7 +47,7 @@
     @media only screen and (max-width: 600px) {
         #footer_id{
           height: 85vh;
-          background: #4C3B4D;
+          background: #333333;
         
         }
       }
@@ -55,7 +55,7 @@
       @media only screen  and (max-width: 867px) and (min-width: 600px) {
         #footer_id{
           height: 90vh;
-          background: #4C3B4D;
+          background: #333333;
       
       }
       }

@@ -31,7 +31,7 @@ class Skills extends Component{
             <div id="id_Skills" className="row" >
  <div id="Skills" class="container text-center bg-grey page-view">
     <h2 className="h2_skill" data-aos="fade-left">Skills</h2>
-    <div className="skillsintro"> What I do?... Here's something I love to do</div>
+    <div className="skillsintro">Here's something I love to do</div>
     <div className="Services_provided row">
         <div className="servicescard col-md-2 col-sm-12">
         <i class="fas fa-globe-americas fa-lg"></i>
@@ -54,7 +54,7 @@ class Skills extends Component{
             <div>Database Design and Management</div>
         </div>
     </div>
-    <div className="skillsintro">Here's some technology stack that I have worked on...</div>
+    <div className="skillsintro">Here's some technology stack that I have worked on</div>
     <div id="boxyy">
     <div className="techimages">
    <div className="tecahimageitems"><img  className="techimage" src={js} height="100" width="100"/> <div className="techimagename">JavaScript</div> </div>

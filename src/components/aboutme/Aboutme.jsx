@@ -8,26 +8,28 @@ import { Route, Switch } from 'react-router-dom';
 import {Navbar, Nav,NavItem} from 'react-bootstrap';
 import { Link, animateScroll as scroll } from "react-scroll";
 class Aboutme extends Component{
-    
+  showresume=()=>{
+    window.location.href = "https://drive.google.com/open?id=17XL_jRfzymD6p4yqNhWel5PlgryFMxN2"
+  }  
   
     render(){
         return(
           <div id="Mahesh" className="row newabout_sec">
-          <div className="mid_left"></div>
+         
           <div className="mid_box">
     
          <div className="row">
          <div className="Main_Image col-md-6 col-sm-12 col-xs-12"><img src={mahesh} className="maheshimg" alt="Smiley face" /></div>
          <div className="col-md-6 col-sm-12 col-xs-12"> <div className=" helloholder row">
            <div className="hello col-md-12 col-sm-12">"Hello World"</div>
-           <div className="moreintroinfo col-md-12 col-sm-12">I'm Mahesh, A Software developer with 2+ years of experience in developing in dynamic and responsive websites, building APIs, CICD pipelines and designing user interfaces. </div>
+           <div className="moreintroinfo col-md-12 col-sm-12">I'm Mahesh, A Software developer with 2+ years of experience in developing in dynamic and responsive websites, building APIs, CI/CD pipelines and designing User Interfaces. </div>
            
          </div> </div>
          </div>
          <div className="row">
          <div className="textdata col-md-6 col-sm-12 col-xs-12 ">
          <div className="row"><hr class="hrclass"/>
-         <div className="myintro col-md-12 col-sm-12">I'm Mahesh</div>
+         <div className="myintro col-md-12 col-sm-12">Mahesh</div>
          <div className="texty col-md-12 col-sm-12">Software Engineer</div>
          </div>
           </div>
@@ -42,7 +44,7 @@ class Aboutme extends Component{
               showCursor={false}
               loop
            ></Typed></div></div></div>
-        </div><div className="row"> <div className="col-md-12 col-sm-12"><button type="button" class="btn btn-secondary">Resume</button></div><div></div>
+        </div><div className="row"> <div className="col-md-12 col-sm-12"><button type="button" onClick={this.showresume} class="btn btn-secondary">Resume</button></div><div></div>
            <div></div>
          </div></div>
            

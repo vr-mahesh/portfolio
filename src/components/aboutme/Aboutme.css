@@ -14,6 +14,10 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  background-image: url(./../../Images/code.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover !important;
 }
 .icon_section{
   background-color: white;
@@ -31,9 +35,8 @@
   height: 68%;
   position: relative;
   top:15%;
-  left:-25%;
-  width: 50%;
-  background-color: #ffeace;
+  width: 60%;
+  background-color: #e4e4e4;
   box-shadow: -3px 7px 12px #888;
 }
 .box_left{
@@ -124,7 +127,6 @@ margin-top: 2vw;
   align-content: flex-start;
   width: 70%;
   height: 90%;
-  
   box-shadow: 1px 1px 6px #888;
 }
 
@@ -219,7 +221,7 @@ li a:hover {
   height: auto;
   -webkit-background-size: cover !important;
   padding: 0;
-  background-color: white;
+  background-color: #333333;
 }
 
 .grow {
@@ -236,7 +238,7 @@ li a:hover {
   text-align: center;
   text-decoration: none;
   font-size: 17px;
-  color: #182434 !Important;
+  color: white !Important;
 }
 
 .topnav a:hover {
@@ -280,11 +282,7 @@ li a:hover {
   }
 }
 
-@media only screen and (max-width: 1230px) and (min-width: 600px) {
-  .newabout_sec {
-    height: 157vh;
-  }
-}
+
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {}
@@ -313,11 +311,55 @@ li a:hover {
   font-family: 'Caveat', cursive;
   font-size: 40px !Important;
   font-weight: 500;
-  color: #4c3b4d !important;
+  color: white !important;
 }
 
 .itemsholder {
   display: flex;
   justify-content: flex-end;
   width: 100%;
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 399px){
+  .mid_box {
+    height: 70%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 499px){
+  .mid_box {
+    height: 60%;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 599px){
+  .mid_box {
+    height: 66%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 767px){
+  .newabout_sec {
+    height: 157vh;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .mid_box {
+    height: 66%;
+  }
+  .newabout_sec {
+    height: 128vh;
+  }
+}
+
+/*  Optional only for ipad  */
+/* @media screen and (min-width: 1024px) and (max-width: 1100px){
+  .mid_box {
+    height: 46%;
+  }
+} */
+
+@media screen and (min-width: 1100px){
+  .mid_box {
+    height: 66%;
+  }
 }
