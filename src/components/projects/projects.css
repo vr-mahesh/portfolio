@@ -1,77 +1,125 @@
-#Projects{
-    
+#Projects {
+
     background-color: #333333;
-    height: 120vh;
+    height: 460vh;
     padding: 1vw;
     color: black;
     margin-top: 5vh;
     margin: auto;
 }
-.proj_sections{
-   
+
+.proj_sections {
+
     font-family: 'Rajdhani', sans-serif;
     font-size: 42px;
     color: white;
     display: flex;
     margin: auto;
 }
-.card1{
+
+.card1 {
     padding: 5vw;
 }
-.card2{
+
+.card2 {
     padding: 5vw;
 }
+
 @media only screen and (max-width: 600px) {
-    #Projects{
-        
-        background-color: #333333;
-        height: 206vh;
-        padding: 1vw;
-        color: black;
+    #Projects {
+        height: 700vh;
     }
-  }
-  .btn_brown{
-background-color: #333333;
-border:none;
-text-decoration: none;
-outline-color: #ADA8B6;
-  }
-  .btn_brown a{
-      text-decoration: none;
-  }
-  .btn_brown:hover{
-      color:#212A3B;
-      background: #ccd9d7;
-      border:none;
+
+    .projectCard {
+        height: 90vh !important;
+    }
+}
+
+.btn_brown {
+    background-color: #333333;
+    border: none;
+    text-decoration: none;
+    outline-color: #ADA8B6;
+}
+
+.btn_brown a {
+    text-decoration: none;
+}
+
+.btn_brown:hover {
+    color: #212A3B;
+    background: #ccd9d7;
+    border: none;
     text-decoration: none !important;
     outline-color: #4C3B4D;
-  }
-  .btn_brown:active{
-    outline-color: #4C3B4D;
-  }
+}
 
-.card_title{
+.btn_brown:active {
+    outline-color: #4C3B4D;
+}
+
+.card_title {
     font-family: 'Fondamento', cursive;
     font-size: 25px;
 }
-.card_text{
+
+.card_text {
     font-family: 'Dosis', sans-serif;
     font-size: 17px;
 }
+
 @media only screen and (max-width: 867px) and (min-width: 600px) {
-    #Projects{
+    #Projects {
         background-color: #333333;
-        height: 233vh;
+        height: 580vh;
         padding: 1vw;
         color: black;
     }
-  }
+    .projectCard{
+        height: 75vh !important
+    }
+}
 
-  .projectHolder{
-    height: 100%;
+.projectHolder {
+    height: 85%;
     width: 100%;
-    background-color: #ADA8B6;
-  }
-  .projectCard{
-      background-color: white;
-  }
+    background-color: white;
+
+}
+
+.projectCard {
+    background-color: white;
+    width: 100%;
+    height: 55vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.projectImages {
+    height: 40vh;
+    width: 100%;
+}
+
+.projecttitles {
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 2vh;
+    margin-top: 3vh;
+    font-size: 25px;
+}
+
+.projecttext {
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+}
+
+.projectbutton {
+    margin-top: 3vh;
+}
+
+.projectbutton>a {
+    color: white !important;
+}
+.emailme > a{
+    color: white;
+}

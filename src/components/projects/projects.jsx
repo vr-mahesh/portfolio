@@ -1,133 +1,42 @@
 import React, { Component } from 'react';
 import {Card, Button, Carousel} from 'react-bootstrap';
 import './projects.css';
-import card11 from '../../Images/bookingPage.PNG';
-import card22 from '../../Images/ez1.PNG';
-import card12 from '../../Images/HomePage.PNG';
-import card13 from '../../Images/ConnectAndChat.PNG';
-import card23 from '../../Images/ez2.PNG';
-import card21 from '../../Images/ez3.PNG';
-import card24 from '../../Images/ez4.PNG';
-class Projects extends Component{
 
+import ProjectCard from './projectcard/projectcard';
+import trex from '../../Images/bookingPage.PNG';
+import ezveteran from '../../Images/ez1.PNG';
+import econeo from '../../Images/econeo.JPG';
+import localink from '../../Images/localink.JPG';
+import cloudy from '../../Images/cloud.png';
+import minority from '../../Images/MinorityMarket.JPG';
+import movie from '../../Images/MovieDatabaseDesign.JPG';
+
+class Projects extends Component{
+   state={
+     json:[
+       { name:"Trex - Travel Guide and Bookings WebApp", text:"Trex is Travel and Experience platform that helps customers in booking for tourist places, events and restraunts. It is developed in MEAN stack with various features like group chat functionality, Telegram Integration with Bot API, Session management and encryption using JWT & bCrypt and Node Mailer along with QR code for emails.",link:"https://github.com/MaheshPrasad44/TrEx-WebProject",image:trex},
+       { name:"EzVeteran", text:"EzVeteran is JAVA-Swing Application that is used to support veterans after their military life, by providing thema with adequate healthcare, housing, jobs and educational opportunities. ",link:"https://github.com/MaheshPrasad44/EZVETERAN-JavaSwingProject",image:ezveteran},
+       { name:"Infrastructure and CI/CD - Cloud Computing", text:"It is DevOps Project which involved building of a secure webapp and hosting it on AWS Infrastucture. Process involved creating of AWS AMIs, CI/CD pipelines, building Infrastucture as Code(IaC), Function as Service(FaaS). Project was carried out using Amazon Web services(AWS), CircleCI and Terraform.",link:"https://maheshprasad44.github.io/cloudlinks/",image:cloudy},
+       { name:"LocaLink", text:"LocaLink is a high-fidelity prototype of the app which is used to support local businesses during COVID-19. Localink helps customers to connect with their local businesses nearby. App has exclusive feature of using 3rd party delivery services when local businesses lack the resources and infrastucture to provide delivery.",link:"https://www.figma.com/proto/Y7lWWbeCoseJt4Wa2wqVQA/MaheshVataluRenukaprasad_Spring21?node-id=417%3A5&scaling=min-zoom&page-id=417%3A0",image:localink},
+       { name:"Eco Neo – Eco welfare platform", text:"Eco Neo is a Eco welfare platform which uses ticketing and auditing system to keep track of the enviromental issues. It also has feature of social feed where individuals and organizations can share their thoughts about the environment, its issues and solutions.",link:"https://github.com/MaheshPrasad44/EcoNeo-WebApplication",image:econeo},
+       { name:"Minority Market", text:"Minority Market is a high-fideltiy prototype feature which is designed to support minority businesses in Amazon app. It has various features like Seller Hub, Auction, Product Feed and CrowdFunding.",link:"https://www.figma.com/proto/Y7lWWbeCoseJt4Wa2wqVQA/MaheshVataluRenukaprasad_Spring21?node-id=805%3A3440&scaling=min-zoom&page-id=799%3A1779",image:minority},
+       { name:"Movies Corner", text:"Movies Corner is Movie Database Design is a project consisted of designing a database to store data of Movies, theathers, reviews, ratings and customers in a single database. This was carried out in Microsoft-SQLand also included various types of Views, Stored procedures and Triggers.",link:"https://github.com/MaheshPrasad44/MovieCorner--Database-Design-Project",image:movie},
+      
+       
+       
+     ]
+   }
     render(){
         return(<div className="row" id="Projects">
          <div class="proj_sections" >Projects</div>
-            <div  className="row" >
-           
- <div className="col-md-6 card1">  <Card>
-  <Card.Img variant="top" src={card11} />
-  <Card.Body>
-    <Card.Title className="card_title">TREX Travel Guide and Bookings</Card.Title>
-    <Card.Text className="card_text">
-      Web Application developed on MEAN Stack which helps tourist to explore i.e ( TRAVEL and EXPERIENCE ) by connecting with fellow travllers around same place and also providing Booking events.  
-    </Card.Text>
-    <Button data-toggle="modal" className="btn_brown" data-target="#project11" variant="dark">View Project</Button>
-  </Card.Body>
-</Card></div>
-<div class="modal fade" id="project11"  role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">TREX Travel Application</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <Carousel>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={card11}
-      alt="First slide"
-    />
-   
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={card12}
-      alt="Third slide"
-    />
-
-   
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={card13}
-      alt="Third slide"
-    />
-
-    
-  </Carousel.Item>
-</Carousel>
-      </div>
-      <div class="modal-footer">
-        <button type="button" style={{color:"white"}} class="btn btn_brown" data-dismiss="modal">Close</button>
-        <button type="button" class="btn_brown btn"><a style={{color:"white"}} href="https://github.com/MaheshPrasad44/TrEx-WebProject">View Repository</a></button>
-      </div>
-    </div>
-  </div>
-</div>
-                <div className="col-md-6 card2"><Card>
-  <Card.Img variant="top" src={card22} />
-  <Card.Body>
-    <Card.Title className="card_title">EZ Veteran</Card.Title>
-    <Card.Text className="card_text">
-      EZ Veteran is JAVA application designed to help veterans by connecting them to various organizations. App also feaures Veteran Tracking,Real time Notifications and Reporting.
-    </Card.Text>
-    <Button data-toggle="modal" data-target="#project2" className="btn_brown" variant="dark">View Project</Button>
-  </Card.Body>
-</Card></div>
-<div class="modal fade" id="project2"  role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle1">EZ Veteran</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <Carousel>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={card21}
-      alt="First slide"
-    />
-   
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={card23}
-      alt="Third slide"
-    />
-
-   
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={card24}
-      alt="Third slide"
-    />
-
-    
-  </Carousel.Item>
-</Carousel>
-      </div>
-      <div class="modal-footer">
-        <button type="button" style={{color:"white"}} class="btn btn_brown" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn_brown"><a style={{color:"white"}} href="https://github.com/MaheshPrasad44/EZVETERAN-JavaSwingProject">View Repository</a></button>
-      </div>
-    </div>
-  </div>
-</div>
-            </div></div>
+          <div className="projectHolder">
+          {
+            this.state.json.map((e)=>{
+             return <ProjectCard  data={e} />;
+            })
+          }
+          </div>
+        </div>
           
 
            
@@ -136,3 +45,7 @@ class Projects extends Component{
     }
 }
 export default Projects;
+
+export const Contacts =[
+ 
+];

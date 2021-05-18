@@ -12,7 +12,7 @@ class Footer extends Component{
 <div className="foot1 col-md-4">
 <div><b>Phone : </b><p>(857)-800-4548</p></div><br/>
 <div><b>Email ID : </b><p>vatalurenukaprasad.m@husky.neu.edu</p></div><br/>
-  <button style={{textDecoration:"none",color:"#929292"}} className="btn btn_white"><a href="mailto:vatalurenukaprasad.m@husky.neu.edu"> Email me</a></button>
+  <button style={{textDecoration:"none",color:"white"}} className="btn btn-secondary emailme"><a href="mailto:vatalurenukaprasad.m@husky.neu.edu"> Email me</a></button>
 </div>
 <div className=" foot2 col-md-4">
 <a className="a_icons" href="https://github.com/MaheshPrasad44"><i style={{'font-size': "40px",
