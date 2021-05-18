@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9854dca30221a428bcbff4665d64d68a",
+    "revision": "6abaa2c6f70460fa5f82cc7849a674ae",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "a5e902a0309908c2d163",
+    "revision": "574ae5d3d703d2f43e32",
     "url": "/portfolio/static/css/2.ff645aaf.chunk.css"
   },
   {
-    "revision": "68cc8925c64a39f513e0",
-    "url": "/portfolio/static/css/main.84aacadc.chunk.css"
+    "revision": "c9ff5e02c44029060c97",
+    "url": "/portfolio/static/css/main.6d52cb1c.chunk.css"
   },
   {
-    "revision": "a5e902a0309908c2d163",
-    "url": "/portfolio/static/js/2.f95c249e.chunk.js"
+    "revision": "574ae5d3d703d2f43e32",
+    "url": "/portfolio/static/js/2.675fe172.chunk.js"
   },
   {
     "revision": "7fb643fff4493739a53db40ceec18f3b",
-    "url": "/portfolio/static/js/2.f95c249e.chunk.js.LICENSE"
+    "url": "/portfolio/static/js/2.675fe172.chunk.js.LICENSE"
   },
   {
-    "revision": "68cc8925c64a39f513e0",
-    "url": "/portfolio/static/js/main.2b3f7314.chunk.js"
+    "revision": "c9ff5e02c44029060c97",
+    "url": "/portfolio/static/js/main.d7468489.chunk.js"
   },
   {
     "revision": "1f80476636c50f84bb32",
@@ -32,16 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Bangalore_Institute_of_Technology_logo.70601dbb.png"
   },
   {
-    "revision": "2fe15dca40dc45c4f10ad95bb2404363",
-    "url": "/portfolio/static/media/ConnectAndChat.2fe15dca.PNG"
-  },
-  {
-    "revision": "cdd4c016d146f58ea7905bb7c6dc4492",
-    "url": "/portfolio/static/media/HomePage.cdd4c016.PNG"
-  },
-  {
     "revision": "795f39b70aec00bff071364f691d81d6",
     "url": "/portfolio/static/media/Indian_Space_Research_Organisation_Logo.svg.795f39b7.png"
+  },
+  {
+    "revision": "a09e7951b61d0ed29550a13c6c97411c",
+    "url": "/portfolio/static/media/MinorityMarket.a09e7951.JPG"
+  },
+  {
+    "revision": "38d7f308c074a9bdd9aa3e2b11a81dd8",
+    "url": "/portfolio/static/media/MovieDatabaseDesign.38d7f308.JPG"
   },
   {
     "revision": "34df46576db065d3fa48ed5c08ee36c9",
@@ -60,24 +60,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/bookingPage.b5dfbd6b.PNG"
   },
   {
+    "revision": "29b51e7c2e4de376c68cbcd388b0f219",
+    "url": "/portfolio/static/media/cloud.29b51e7c.png"
+  },
+  {
     "revision": "ec88ac14b3db47b5f490613c7422fe2c",
     "url": "/portfolio/static/media/code.ec88ac14.jpg"
   },
   {
+    "revision": "059f8e6a5df1b555183ad55ba29cf456",
+    "url": "/portfolio/static/media/econeo.059f8e6a.JPG"
+  },
+  {
     "revision": "50935d3f26de6c9d172b6d476d9e1ce2",
     "url": "/portfolio/static/media/ez1.50935d3f.PNG"
-  },
-  {
-    "revision": "187ee0654c7d52b67135c7c414d3172a",
-    "url": "/portfolio/static/media/ez2.187ee065.PNG"
-  },
-  {
-    "revision": "de23d82e50a57bddb6301e20af2e79f6",
-    "url": "/portfolio/static/media/ez3.de23d82e.PNG"
-  },
-  {
-    "revision": "c2de2fde102901e4762f2640093b3ca5",
-    "url": "/portfolio/static/media/ez4.c2de2fde.PNG"
   },
   {
     "revision": "2024f24c61d66b387813df3900d4665d",
@@ -98,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "03cbde693a391ec3eaec7a535a6b4231",
     "url": "/portfolio/static/media/js.03cbde69.jpg"
+  },
+  {
+    "revision": "baf5efd83891d4a6220ba84502d9900d",
+    "url": "/portfolio/static/media/localink.baf5efd8.JPG"
   },
   {
     "revision": "ee7cd8ed2dcec943251eb2763684fc6f",
