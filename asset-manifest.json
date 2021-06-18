@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.228e7ada.chunk.css",
-    "main.js": "/static/js/main.cdc04e87.chunk.js",
-    "main.js.map": "/static/js/main.cdc04e87.chunk.js.map",
+    "main.css": "/static/css/main.9de60c18.chunk.css",
+    "main.js": "/static/js/main.4636bd80.chunk.js",
+    "main.js.map": "/static/js/main.4636bd80.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.831d062b.js",
     "runtime-main.js.map": "/static/js/runtime-main.831d062b.js.map",
     "static/css/2.ff645aaf.chunk.css": "/static/css/2.ff645aaf.chunk.css",
-    "static/js/2.675fe172.chunk.js": "/static/js/2.675fe172.chunk.js",
-    "static/js/2.675fe172.chunk.js.map": "/static/js/2.675fe172.chunk.js.map",
+    "static/js/2.749a2eea.chunk.js": "/static/js/2.749a2eea.chunk.js",
+    "static/js/2.749a2eea.chunk.js.map": "/static/js/2.749a2eea.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.eb1b2bf5f9512db2d5d2cc394ae106aa.js": "/precache-manifest.eb1b2bf5f9512db2d5d2cc394ae106aa.js",
+    "precache-manifest.9a49b0ce9f0f30aae43de8d07130d690.js": "/precache-manifest.9a49b0ce9f0f30aae43de8d07130d690.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ff645aaf.chunk.css.map": "/static/css/2.ff645aaf.chunk.css.map",
-    "static/css/main.228e7ada.chunk.css.map": "/static/css/main.228e7ada.chunk.css.map",
-    "static/js/2.675fe172.chunk.js.LICENSE": "/static/js/2.675fe172.chunk.js.LICENSE",
+    "static/css/main.9de60c18.chunk.css.map": "/static/css/main.9de60c18.chunk.css.map",
+    "static/js/2.749a2eea.chunk.js.LICENSE": "/static/js/2.749a2eea.chunk.js.LICENSE",
     "static/media/Education.css": "/static/media/northeastern_university_logo.0a0dda79.png",
     "static/media/Indian_Space_Research_Organisation_Logo.svg.png": "/static/media/Indian_Space_Research_Organisation_Logo.svg.795f39b7.png",
     "static/media/MinorityMarket.JPG": "/static/media/MinorityMarket.a09e7951.JPG",
@@ -42,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.831d062b.js",
     "static/css/2.ff645aaf.chunk.css",
-    "static/js/2.675fe172.chunk.js",
-    "static/css/main.228e7ada.chunk.css",
-    "static/js/main.cdc04e87.chunk.js"
+    "static/js/2.749a2eea.chunk.js",
+    "static/css/main.9de60c18.chunk.css",
+    "static/js/main.4636bd80.chunk.js"
   ]
 }
