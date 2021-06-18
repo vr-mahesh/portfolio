@@ -18,12 +18,13 @@ window.location.href= e.target.attributes.data.nodeValue;
           <div className="projectCard">
             <div className="row">
               <div className="col-md-5 col-sm-12"><img className="projectImages" src={this.props.data.image} /></div>
-              <div className="col-md-7 col-sm-12"> 
+              <div className="col-md-7 col-sm-12 textualdata"> 
               <div className="row projecttitles"> {this.props.data.name}</div>
               <div className="row projecttext">{this.props.data.text}</div>
               <div className="row"><button className="btn btn-secondary projectbutton" data={this.props.data.link} onClick={this.loadpage}>View Project</button></div>
               </div>
             </div>
+            <hr className="hrclass" />
           </div> 
         )
 

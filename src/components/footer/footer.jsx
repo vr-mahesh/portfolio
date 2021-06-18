@@ -15,13 +15,13 @@ class Footer extends Component{
   <button style={{textDecoration:"none",color:"white"}} className="btn btn-secondary emailme"><a href="mailto:vatalurenukaprasad.m@husky.neu.edu"> Email me</a></button>
 </div>
 <div className=" foot2 col-md-4">
-<a className="a_icons" href="https://github.com/MaheshPrasad44"><i style={{'font-size': "40px",
+<a className="a_icon" href="https://github.com/vr-mahesh"><i style={{'font-size': "40px",
     "color": "white"}} class="fa fa-github" aria-hidden="true"></i></a>
- <a className="a_icons" href="https://www.facebook.com/mahesh.prasad.56808"><i  style={{'font-size': "40px",
+ <a className="a_icon" href="https://www.facebook.com/mahesh.prasad.56808"><i  style={{'font-size': "40px",
     "color": "white"}} class="fa fa-facebook-square" aria-hidden="true"></i></a>
- <a  className="a_icons" href="https://www.instagram.com/being.n0_0ne/"><i  style={{'font-size': "40px",
+ <a  className="a_icon" href="https://www.instagram.com/butterflynhurricane/"><i  style={{'font-size': "40px",
     "color": "white"}} class="fa fa-instagram" aria-hidden="true"></i></a>
-<a className="a_icons" href="https://www.linkedin.com/in/maheshprasad44/"><i style={{'font-size': "40px",
+<a className="a_icon" href="https://www.linkedin.com/in/vrmahesh/"><i style={{'font-size': "40px",
     "color": "white"}}  class="fa fa-linkedin" aria-hidden="true"></i></a>
  
 </div>

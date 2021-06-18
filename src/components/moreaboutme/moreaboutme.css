@@ -7,7 +7,7 @@
 #AboutMe{
     color: white;
    background-color: #333333;
-    height: 115vh;
+    height: 120vh;
     padding: 20px;
 }
 
@@ -52,14 +52,14 @@
     color: white;
     text-decoration: none;
 }
-.a_icons{
+.a_icon{
     margin-left: 3vw;
 }
 
   
 @media screen and (max-width: 600px) {
     #AboutMe{
-        height: 130vh;
+        height: 145vh;
     }
   }
   

@@ -35,13 +35,13 @@ class MoreAboutMe extends Component{
  <div data-aos="fade-left" className="col-md-8 col-sm-12 font20 aboutme_body">Here's my <a className="a_resume" href={"https://drive.google.com/open?id=17XL_jRfzymD6p4yqNhWel5PlgryFMxN2"} rel="noopener noreferrer">Resume</a></div>
  </div>
  <div className="row socialmedia morepara">
- <a className="a_icons" href="https://github.com/MaheshPrasad44"><i style={{'font-size': "40px",
+ <a className="a_icon" href="https://github.com/vr-mahesh"><i style={{'font-size': "40px",
     "color": "white"}} class="fa fa-github" aria-hidden="true"></i></a>
- <a className="a_icons" href="https://www.facebook.com/mahesh.prasad.56808"><i  style={{'font-size': "40px",
+ <a className="a_icon" href="https://www.facebook.com/mahesh.prasad.56808"><i  style={{'font-size': "40px",
     "color": "white"}} class="fa fa-facebook-square" aria-hidden="true"></i></a>
- <a  className="a_icons" href="https://www.instagram.com/being.n0_0ne/"><i  style={{'font-size': "40px",
+ <a  className="a_icon" href="https://www.instagram.com/butterflynhurricane/"><i  style={{'font-size': "40px",
     "color": "white"}} class="fa fa-instagram" aria-hidden="true"></i></a>
-<a className="a_icons" href="https://www.linkedin.com/in/maheshprasad44/"><i style={{'font-size': "40px",
+<a className="a_icon" href="https://www.linkedin.com/in/vrmahesh/"><i style={{'font-size': "40px",
     "color": "white"}}  class="fa fa-linkedin" aria-hidden="true"></i></a>
  </div>
 

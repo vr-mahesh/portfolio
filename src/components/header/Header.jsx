@@ -34,10 +34,10 @@ render(){
        <Navbar.Collapse id="basic-navbar-nav">
          <Nav className="itemsholder navvele mr-auto">
            <Nav.Link  to="/moreaboutme"  onClick={() => {window.scrollTo({ top: 600, behavior: 'smooth' }) }}>About Me</Nav.Link>
-           <Nav.Link  to="/skills"  onClick={() => {window.scrollTo({ top: 1350, behavior: 'smooth' }) }}>Skills</Nav.Link>
-           <Nav.Link  to="/projects" onClick={() => {window.scrollTo({ top: 2000, behavior: 'smooth' }) }}>Projects</Nav.Link>
-           <Nav.Link  to="/education"  onClick={() => {window.scrollTo({ top: 2800, behavior: 'smooth' }) }}>Education</Nav.Link>
-           <Nav.Link  to="/experience"  onClick={() => {window.scrollTo({ top: 3600, behavior: 'smooth' }) }}>Experience</Nav.Link>
+           <Nav.Link  to="/skills"  onClick={() => {window.scrollTo({ top: 1200, behavior: 'smooth' }) }}>Skills</Nav.Link>
+           <Nav.Link  to="/projects" onClick={() => {window.scrollTo({ top: 1900, behavior: 'smooth' }) }}>Projects</Nav.Link>
+           <Nav.Link  to="/education"  onClick={() => {window.scrollTo({ top: 4450, behavior: 'smooth' }) }}>Education</Nav.Link>
+           <Nav.Link  to="/experience"  onClick={() => {window.scrollTo({ top: 5250, behavior: 'smooth' }) }}>Experience</Nav.Link>
          </Nav>
        </Navbar.Collapse>
      </Navbar>

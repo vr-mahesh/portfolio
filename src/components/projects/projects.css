@@ -27,11 +27,11 @@
 
 @media only screen and (max-width: 600px) {
     #Projects {
-        height: 700vh;
+        height: 890vh;
     }
 
     .projectCard {
-        height: 90vh !important;
+        height: 115vh !important;
     }
 }
 
@@ -71,12 +71,12 @@
 @media only screen and (max-width: 867px) and (min-width: 600px) {
     #Projects {
         background-color: #333333;
-        height: 580vh;
+        height: 815vh;
         padding: 1vw;
         color: black;
     }
     .projectCard{
-        height: 75vh !important
+        height: 105vh !important
     }
 }
 
@@ -99,8 +99,11 @@
 .projectImages {
     height: 40vh;
     width: 100%;
+    margin-top: 25px;
 }
-
+.hrclass{
+    width: 50%;
+}
 .projecttitles {
     font-family: 'Dosis', sans-serif;
     margin-bottom: 2vh;
@@ -122,4 +125,7 @@
 }
 .emailme > a{
     color: white;
+}
+.textualdata{
+    padding: 30px;
 }
