@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b9d36fc.chunk.css",
+    "main.css": "/static/css/main.228e7ada.chunk.css",
     "main.js": "/static/js/main.cdc04e87.chunk.js",
     "main.js.map": "/static/js/main.cdc04e87.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.831d062b.js",
@@ -9,10 +9,10 @@
     "static/js/2.675fe172.chunk.js": "/static/js/2.675fe172.chunk.js",
     "static/js/2.675fe172.chunk.js.map": "/static/js/2.675fe172.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.78a8a29bd2c264fa779deb8f7c873882.js": "/precache-manifest.78a8a29bd2c264fa779deb8f7c873882.js",
+    "precache-manifest.eb1b2bf5f9512db2d5d2cc394ae106aa.js": "/precache-manifest.eb1b2bf5f9512db2d5d2cc394ae106aa.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ff645aaf.chunk.css.map": "/static/css/2.ff645aaf.chunk.css.map",
-    "static/css/main.0b9d36fc.chunk.css.map": "/static/css/main.0b9d36fc.chunk.css.map",
+    "static/css/main.228e7ada.chunk.css.map": "/static/css/main.228e7ada.chunk.css.map",
     "static/js/2.675fe172.chunk.js.LICENSE": "/static/js/2.675fe172.chunk.js.LICENSE",
     "static/media/Education.css": "/static/media/northeastern_university_logo.0a0dda79.png",
     "static/media/Indian_Space_Research_Organisation_Logo.svg.png": "/static/media/Indian_Space_Research_Organisation_Logo.svg.795f39b7.png",
@@ -43,7 +43,7 @@
     "static/js/runtime-main.831d062b.js",
     "static/css/2.ff645aaf.chunk.css",
     "static/js/2.675fe172.chunk.js",
-    "static/css/main.0b9d36fc.chunk.css",
+    "static/css/main.228e7ada.chunk.css",
     "static/js/main.cdc04e87.chunk.js"
   ]
 }
